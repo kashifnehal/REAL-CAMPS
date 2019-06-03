@@ -1,0 +1,20 @@
+<% include partials/header %>
+
+
+
+
+
+<div class="container">
+        <div style="width:30%; margin: 20px auto;">
+            <h1>enter new camp </h1>
+            <form action="/campgrounds" method="POST">
+                <input class="form-control" type="text" placeholder="enter name" name="name">
+                <input class="form-control" type="text" placeholder="image url" name="image">
+                <button class="btn btn-lg btn-primary btn-block">submit!</button>
+            </form>
+            <a href="/campgrounds">go back</a>
+
+        </div>
+</div>
+<% include partials/footer %>
+
